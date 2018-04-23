@@ -105,8 +105,8 @@ const reverse = (theArray) => {
 const tail = (theArray) => {
     const newArr3 = [];
     // creating for loop to add item to new array EXCEPT the first item
-    // let i equals 1; if i(1) is less than the array,
-    for(let i = 1; i < theArray.length; i++) {
+    // let i equals 0; if i(0) is less than the array,
+    for(let i = 0; i < theArray.length; i++) {
         // push
         newArr3.push(theArray[i]);
     }
@@ -124,6 +124,9 @@ const tail = (theArray) => {
 //after each for loop check the variable, if true, continue the while loop
 //if false return theArray
 const sort = (theArray) => {
+    const newArr4 = []
+
+    while()
 
 }
 
