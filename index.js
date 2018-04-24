@@ -123,7 +123,7 @@ const tail = (theArray) => {
 //if a swap is done set it to true
 //after each for loop check the variable, if true, continue the while loop
 //if false return theArray
-const sort = (theArray) => {
+const sort = (arr) => {
     let swapped = false;
     while(!swapped) {
         swapped = true;
@@ -134,10 +134,13 @@ const sort = (theArray) => {
                     arr[x+1] = holdValue;
                     swapped = false;
                 }
+                //another loop
             }
     }
+    return arr;
 
 }
+sort ([4,3,6,11,2,8,5,14])
 
 exports.map = map;
 exports.filter = filter;
