@@ -90,7 +90,7 @@ const reverse = (theArray) => {
     // use for loop to add item to the empty array
     // using .length - 1, which corresponds to the last index
     // As long as i is greater than or equals to 0, the loop will continue
-    for(let i = 0; theArray.length - 1; i >= 0; i--) {
+    for(let i = theArray.length - 1; i >= 0; i--) {
         // using push function to push the last index to return as first
         newArr2.push(theArray[i]);
     }
